@@ -1,0 +1,41 @@
+# Copy everything from your .gitignore file here first
+
+# Common files to exclude
+node_modules/
+.expo/
+.vscode/
+.idea/
+
+# Documentation and development files
+/docs/
+/screenshots/
+/design/
+README.md
+CHANGELOG.md
+
+# Test and coverage files
+/coverage/
+/__tests__/
+*.test.js
+*.spec.js
+
+# Native directories (EAS will regenerate these)
+/android/
+/ios/
+
+# Large asset files not needed for build
+/assets/raw/
+/assets/source/
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Development dependencies
+*.orig
+.nyc_output
